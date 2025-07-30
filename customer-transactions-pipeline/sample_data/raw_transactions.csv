@@ -1,0 +1,7 @@
+id,customer_name,region,product,price,quantity,transaction_date
+1,Anna,EMEA,Laptop,$1,200,1,"20-07-2024"
+2, Miguel,APAC ,Phone , usd 800 , 2 , 15-07-2024
+3,Jane,EMEA,Keyboard,€50 ,1 , 07-06-2024
+4, Tim ,AMER,Monitor , $200.00 ,1 , "05-06-2024"
+5,Lucas,APAC ,mouse,100JPY,2,06-2024-18
+6,Alex,,Laptop,,,"06-2024-30"

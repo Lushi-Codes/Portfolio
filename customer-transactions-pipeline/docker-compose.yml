@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres
+    container_name: customer-transactions-pipeline-postgres-1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: portfolio_db
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+      - ./sample_data:/sample_data
+      - ./scripts:/scripts
+      - ./init:/init
+    ports:
+      - "5432:5432"
